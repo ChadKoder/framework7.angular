@@ -1,0 +1,22 @@
+<div data-page="test-page-1" class="page" ng-controller="TestPage1Ctrl">
+	<div class="page-content">
+		  <div class="content-block">
+			<div class="content-block-inner">
+			  <p>On this page Navbar was hidden dynamically. All you need to make it work is just to add "no-navbar" class to this page.</p>
+			</div>
+			
+			
+			<div class="button button-big test-btn">
+				Test click
+			</div>
+			<div> test result: {{ testResult }}</div>
+			<div class="button button-big" ng-click="testClick1()">another test angular binding</div>
+			<p><a href="index.html" class="back button">Go Back</a></p>
+			
+			<input id="inputBtn" style="visibility: hidden;" type="file" multiple accept="image/*;capture=camera">
+			<label for="inputBtn" class="button button-big">Select Photos</label>
+			
+			
+		  </div>
+	</div>
+</div>

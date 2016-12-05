@@ -59,6 +59,19 @@ angular.module("AngularApp", [])
     }
 }])
 
+.controller("TestPage1Ctrl", ["$scope", function ($scope) {
+	$scope.testResult = 'Off';
+	
+	$scope.testClick1 = function (){
+		//myApp.alert('clicked this test, it is bound!');
+		if ($scope.testResult === 'Off'){
+			$scope.testResult = 'On';
+		} else {
+			$scope.testResult = 'Off';
+		}
+	};
+}])
+
 .controller("CalendarCtrl", ["$scope", function($scope) {
     var calendarDefault = myApp.calendar({
         input: '#ks-calendar-default',

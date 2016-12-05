@@ -118,7 +118,7 @@
                 'src/js/swiper.js',
                 'src/js/wrap-end.js'
             ],
-            modules: require('./modules.json'),
+            //modules: require('./modules.json'),
             pkg: require('./bower.json'),
             banner: [
                 '/**',
