@@ -59,6 +59,7 @@ angular.module("AngularApp", [])
     }
 }])
 
+/*
 .controller("TestPage1Ctrl", ["$scope", function ($scope) {
 	$scope.testResult = 'Off';
 	
@@ -71,7 +72,7 @@ angular.module("AngularApp", [])
 		}
 	};
 }])
-
+*/
 .controller("CalendarCtrl", ["$scope", function($scope) {
     var calendarDefault = myApp.calendar({
         input: '#ks-calendar-default',
